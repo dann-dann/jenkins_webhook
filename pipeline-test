@@ -8,7 +8,7 @@ pipeline {
                 sh '''
                 echo "doing build stuff.."
                 '''
-                sh 'echo "Some text for the test file" > /var/jenkins_home/test.txt'
+                sh 'echo "Some text for the test file 2" > /var/jenkins_home/test.txt'
             }
         }
 
